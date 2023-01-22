@@ -1,0 +1,38 @@
+.secondary-head{
+    font-size: 2rem;
+}
+
+
+/* navbar section */
+#navbar{
+    flex-direction: column;
+    width: 100%;
+}
+/* home section */
+#home{
+    height: 400px;
+}
+#home::before{
+    height: 500px;
+}
+
+/* product section */
+#computer-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#computer-box .box img{
+    width: 60%;
+    height: 8%;
+}
+
+
+/* clients section */
+#contact-box{
+    overflow: hidden;
+}
+
+/* onatct us section*/
+
+/* footer section */

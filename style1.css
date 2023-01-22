@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* headings setting */
+.secondary-head{
+    display: block;
+    /* margin: auto; */
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+#navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    }
+    #navbar::before{
+        content: "";
+        background: black;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+    #navbar img{
+        height: 50px;
+        width: 70px;
+        position: relative;
+    }
+    #navbar ul{
+        display: flex;                   
+    }
+    #navbar ul li{
+        list-style: none;
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        padding: 0px 20px;
+        display: block;
+        border-radius: 20px;
+        color: white;        
+    }
+    #navbar ul li a:hover{
+        cursor: pointer;
+        background-color: whitesmoke;
+        /* border-radius: 20px; */
+        color: black;
+    }
+    /* HOME SECTION  */
+    #home{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 537px;
+    }
+    #home::before{
+        content: "";
+        background: url(back.png) no-repeat center center/cover;
+        position: absolute;
+        height: 95%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    #home h2{
+        color: black;
+        /* position: relative; */
+        text-align: center;
+    }
+    #home .hcont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #home p{
+        color: black;
+        padding-top: 23px;
+    }
+    #home .btn{
+        margin-top: 10px;
+        padding: 10px;
+        background-color: white;
+        color: black;
+        border-radius: 23px;
+    }
+    #home .btn:hover{
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+    #computer-box{
+        display: flex;
+    }
+    #computer-box .box{
+        border: 3px solid green;
+        border-radius: 23px;
+        width: 30%;
+        margin: 20px;
+        padding: 20px;
+        background-color: cornsilk;
+    }
+    #computer-box .box img{
+        height: 200px;
+        display: block;
+        margin: auto;
+    }
+    #computer-box .box p{
+        /* border: 2px solid yellow; */
+        text-align: center;
+        padding-top: 20px;
+        margin: 10px;
+    }
+
+    /* SPONSORS SECTION  */
+    #sponsor-section .sponsors{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #sponsor-section .sponsors::before{
+        content: "";
+        background: url('../full-reponsive-website/laptop-1846277.jpg') no-repeat center center/cover;
+        position: absolute;
+        height: 100px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+    #sponsor-section .sponsors img{
+        /* border:  3px solid yellow; */
+        height: 50px;
+        width: 60px;
+        margin: 10px;
+        padding: 10px;
+    }
+    #contact{
+        position: relative;
+    }
+    #contact-box{
+        display: flex;
+        /* border: 3px solid yellow; */
+        align-items: center;
+        justify-content: center;
+    }
+    #contact-box::before{
+        content: "";
+        position: absolute;
+        height: 333px;
+        width: 100%;
+        background-color: aqua;
+        z-index: -1;
+        opacity: 0.4;
+
+    }
+    #contact-box input,
+    #contact-box textarea{
+        /* border: 2px solid black; */
+        width: 100%;
+        font-size: 1rem;
+    }
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+     /* footer section */
+   #foot{
+    background-color: black;
+    color: white;
+    text-align: center;
+   }
